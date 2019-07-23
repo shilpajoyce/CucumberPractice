@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "display welcome message",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4980900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "application displaying welcome message",
+            "match": {
+              "location": "practice678.application_displaying_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Search products",
+        "description": "",
+        "id": "purchase-products-in-online;search-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 993500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user entering search product as \"iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iphone\"",
+                  "offset": 32
+                }
+              ],
+              "location": "practice678.user_entering_search_product_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 446300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "application display search related items",
+            "match": {
+              "location": "practice678.application_display_search_related_items()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "display welcome message",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 348700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "application displaying welcome message",
+            "match": {
+              "location": "practice678.application_displaying_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Add products to cart",
+        "description": "",
+        "id": "purchase-products-in-online;add-products-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1462500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click on Add to cart",
+            "match": {
+              "location": "practice678.user_click_on_Add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 551500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The product should added to cart item",
+            "match": {
+              "location": "practice678.the_product_should_added_to_cart_item()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "display welcome message",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 501400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "application displaying welcome message",
+            "match": {
+              "location": "practice678.application_displaying_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Payment",
+        "description": "",
+        "id": "purchase-products-in-online;payment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 915400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user performs payment through netbanking",
+            "match": {
+              "location": "practice678.user_performs_payment_through_netbanking()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 212900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "close application",
+            "match": {
+              "location": "practice678.close_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "purchase products in Online",
+    "description": "This tests the online purchase of products",
+    "id": "purchase-products-in-online",
+    "keyword": "Feature",
+    "uri": "FeaturesLib/practice.feature",
+    "tags": []
+  }
+]

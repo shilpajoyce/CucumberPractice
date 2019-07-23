@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.813849">
+<testcase classname="purchase products in Online" name="validate login functionality" time="23.813849">
+<system-out><![CDATA[Given application displaying welcome message................................passed
+When user opens login application...........................................passed
+And entering username as "mercury"..........................................passed
+And entering password as "mercury"..........................................passed
+Then click Submit...........................................................passed
+And Validate login success..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
